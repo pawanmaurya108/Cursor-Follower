@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} */
+
+.follower{
+    height: 25px;
+    width: 25px;
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    /* background-color: rgb(41, 41, 240); */
+    box-shadow: inset -6px -6px 9px blue, 5px 5px 6px black;
+    position: absolute;
+    transition: transform 0.1s ease-out; /* Smooth movement */
+}
